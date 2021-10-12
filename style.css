@@ -39,14 +39,19 @@ section
     padding-bottom: 150px;
 }
 
-.link-button 
+.link-button
 {
+    color: dimgray;
+    text-decoration: none;
     border-radius: 5px;
     background-image: linear-gradient(45deg , lightSalmon,tomato);
-    text-decoration: none;
     padding: 10px;
     color: white;
     font-weight: 700;
+}
+.link-button:hover{
+    transition: ease-in-out;
+  background-image: linear-gradient(45deg, deeppink,red);
 }
 
 h2
